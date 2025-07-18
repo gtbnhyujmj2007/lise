@@ -1,0 +1,17 @@
+digital_buffett/
+├── README.md            # 專案說明
+├── analysis_engine/     # 分析機代碼
+│   ├── models.py
+│   ├── signal_processing.py
+│   └── data_fetcher.py
+├── observation_engine/  # 觀察機代碼
+│   ├── price_monitor.py
+│   └── lsd_scanner.py
+├── execution_engine/    # 下單機代碼
+│   └── order_manager.py
+├── docs/                # 筆記與理論
+│   ├── system_overview.md
+│   ├── lsd_mechanism.md
+│   └── trading_signal_logic.md
+└── experiments/         # 實驗測試與原型
+    └── colab_notebooks.ipynb
